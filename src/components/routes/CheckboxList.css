@@ -1,0 +1,41 @@
+.noncheck{
+    width: 200px;
+    text-align: center;
+}
+
+.butt{
+    width: 100px;
+}
+
+.checkbox-list {
+    max-height: 200px;
+    max-width: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .checkbox-item {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-item.checked {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+    border-radius: 4px;
+  }
+  
+  .checkbox-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checked-item {
+    margin-top: 20px;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
